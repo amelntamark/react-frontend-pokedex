@@ -12,6 +12,11 @@ function App() {
   
   return (
     <div>
+      <nav>
+      <div className="nav-wrapper">
+        <a href="index.html" className="brand-logo">Pokédex</a>
+      </div>
+  </nav>
       <PokemonList
         pokemonList={pokemon}
       />
