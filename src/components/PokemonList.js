@@ -9,7 +9,7 @@ const PokemonList = (props) => {
         id={pokemon.id}
         name={pokemon.name}
         img={pokemon.img}
-        type={pokemon.type[0]}
+        type={pokemon.type}
         height={pokemon.height}
       />
     );
