@@ -17,7 +17,7 @@ function App() {
         <a href="index.html" className="brand-logo">Pokédex</a>
       </div>
   </nav>
-  <a class="waves-effect waves-light btn" id="toggleButton">Show height</a>
+  <a className="waves-effect waves-light btn" id="toggleButton">Show height</a>
       <PokemonList
         pokemonList={pokemon}
       />
